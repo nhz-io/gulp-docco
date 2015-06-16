@@ -32,7 +32,8 @@
 
   var gulco = require('./');
 
-  gulp.task('gulco-classic', function() {
+  gulp.task('gulco-classic', function() { // disabled (no template yet)
+    return
     gulp.src([
       './test/**/*.litcoffee'
     ])
@@ -40,7 +41,8 @@
     .pipe(gulp.dest('./doc/docco-classic'));
   });
 
-  gulp.task('gulco-linear', function() {
+  gulp.task('gulco-linear', function() { // disabled (no template yet)
+    return
     gulp.src([
       './test/**/*.litcoffee'
     ])

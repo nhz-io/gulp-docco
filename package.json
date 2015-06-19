@@ -24,7 +24,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsBoot/gulp-docco.git"
+    "url": "https://github.com/nhz-io/gulp-docco.git"
   },
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
